@@ -1,0 +1,8 @@
+interface:
+  display_name: "多平台旅游规划"
+  short_description: "对比社交平台与官方资料，生成路线、预算和旅行报告"
+  default_prompt: "Use $multi-platform-travel-planner to compare travel sources and build a practical itinerary with routes, food, budget, and the best travel time."
+
+policy:
+  allow_implicit_invocation: true
+
