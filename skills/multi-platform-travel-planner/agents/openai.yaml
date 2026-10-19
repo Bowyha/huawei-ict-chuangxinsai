@@ -1,7 +1,7 @@
 interface:
   display_name: "多平台旅游规划"
-  short_description: "整合社交平台、官方资料与小时天气，生成路线和预算"
-  default_prompt: "Use $multi-platform-travel-planner to build a sourced itinerary with routes, food, budget, and multi-source hourly weather decisions."
+  short_description: "整合地图、12306、旅行平台与天气，生成路线和预算"
+  default_prompt: "Use $multi-platform-travel-planner to build a sourced itinerary with food, budget, multi-source weather, map-based transfers, and 12306-only railway data."
 
 policy:
   allow_implicit_invocation: true
