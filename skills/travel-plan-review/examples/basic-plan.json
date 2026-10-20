@@ -1,0 +1,163 @@
+{
+  "plan": {
+    "requirements": {
+      "budget": {
+        "currency": "CNY",
+        "amount_minor": 100000,
+        "scope": "两人全程住宿和门票"
+      },
+      "mandatory_place_ids": [
+        "a"
+      ],
+      "daily_walking_limit_m": 5000,
+      "daily_windows": {
+        "2026-11-06": {
+          "start": "2026-11-06T08:00:00+08:00",
+          "end": "2026-11-06T20:00:00+08:00"
+        }
+      },
+      "deadlines": [],
+      "allowed_transport_modes": [
+        "walk",
+        "bus"
+      ],
+      "additional_checks": []
+    },
+    "activities": [
+      {
+        "id": "a",
+        "name": "a",
+        "place_id": "a",
+        "day": "2026-11-06",
+        "start": "2026-11-06T09:00:00+08:00",
+        "end": "2026-11-06T10:00:00+08:00",
+        "status": "planned",
+        "locked": false,
+        "optional": true,
+        "min_duration_minutes": 30,
+        "walking_m": 500,
+        "evidence": {
+          "status": "verified",
+          "source_ids": [
+            "fixture"
+          ]
+        },
+        "opening": {
+          "applicable": true,
+          "windows": [
+            {
+              "start": "2026-11-06T08:00:00+08:00",
+              "end": "2026-11-06T18:00:00+08:00"
+            }
+          ],
+          "latest_entry": "2026-11-06T17:00:00+08:00",
+          "is_latest_entry_known": true,
+          "evidence": {
+            "status": "verified",
+            "source_ids": [
+              "fixture"
+            ]
+          }
+        },
+        "reservation": {
+          "required": false,
+          "confirmed": null,
+          "window": null,
+          "evidence": {
+            "status": "verified",
+            "source_ids": [
+              "fixture"
+            ]
+          }
+        }
+      },
+      {
+        "id": "b",
+        "name": "b",
+        "place_id": "b",
+        "day": "2026-11-06",
+        "start": "2026-11-06T11:00:00+08:00",
+        "end": "2026-11-06T12:00:00+08:00",
+        "status": "planned",
+        "locked": false,
+        "optional": true,
+        "min_duration_minutes": 30,
+        "walking_m": 500,
+        "evidence": {
+          "status": "verified",
+          "source_ids": [
+            "fixture"
+          ]
+        },
+        "opening": {
+          "applicable": true,
+          "windows": [
+            {
+              "start": "2026-11-06T08:00:00+08:00",
+              "end": "2026-11-06T18:00:00+08:00"
+            }
+          ],
+          "latest_entry": "2026-11-06T17:00:00+08:00",
+          "is_latest_entry_known": true,
+          "evidence": {
+            "status": "verified",
+            "source_ids": [
+              "fixture"
+            ]
+          }
+        },
+        "reservation": {
+          "required": false,
+          "confirmed": null,
+          "window": null,
+          "evidence": {
+            "status": "verified",
+            "source_ids": [
+              "fixture"
+            ]
+          }
+        }
+      }
+    ],
+    "legs": [
+      {
+        "from_id": "a",
+        "to_id": "b",
+        "day": "2026-11-06",
+        "mode": "bus",
+        "duration_minutes": 30,
+        "buffer_minutes": 10,
+        "walking_m": 300,
+        "evidence": {
+          "status": "verified",
+          "source_ids": [
+            "fixture"
+          ]
+        }
+      }
+    ],
+    "cost_items": [
+      {
+        "id": "hotel",
+        "charge_key": "hotel-entire-stay",
+        "amount_minor": 80000,
+        "currency": "CNY",
+        "paid": false,
+        "evidence": {
+          "status": "verified",
+          "source_ids": [
+            "fixture"
+          ]
+        }
+      }
+    ],
+    "costs_complete": true,
+    "sources": [
+      {
+        "id": "fixture",
+        "reference": "人工合成测试资料，非真实营业或报价信息",
+        "queried_at": "2026-10-19T12:00:00+08:00"
+      }
+    ]
+  }
+}
